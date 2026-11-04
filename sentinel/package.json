@@ -1,0 +1,12 @@
+{
+  "name": "sentinel-code-security",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser-local source security and npm dependency review",
+  "scripts": {
+    "test": "node --test test/scanner.test.mjs",
+    "check": "node --check dist/app.js && node --check dist/scanner.js",
+    "dev": "python3 -m http.server 4173 --directory dist"
+  }
+}
