@@ -2,6 +2,9 @@
 
 A responsive code-security dashboard with browser-local source scanning, live npm dependency review, configurable release checks, finding remediation guidance, and JSON/text report exports.
 
+# UI
+![image](./Sentinel%20UI.png)
+
 ## Run locally
 
 Requires Python 3 for the static server and Node.js 20+ for tests. The app has no build dependencies.
